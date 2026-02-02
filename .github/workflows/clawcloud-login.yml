@@ -3,7 +3,7 @@ name: ClawCloud Run Auto Login (2FA Support)
 
 on:
   schedule:
-    - cron: '0 0 1,16 * *'
+    - cron: '0 1 3,18 * *'
   workflow_dispatch:
 
 permissions:
